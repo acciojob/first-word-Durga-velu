@@ -1,8 +1,13 @@
 function firstWord(s) {
   // your code here
-	let ans=s.split(" ")
+	if(s==""){
+		return `' '`
+		}
+	else{
+		let ans=s.split(" ")
 	
 	return `${ans[0]}`
+	}
 }
 // Do not change the code below
 
