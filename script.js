@@ -5,7 +5,7 @@ function firstWord(s) {
 		}
 		
 	else{
-		let ans=s.split(" ")
+		let ans=s.trim().split(" ")
 	
 	return `${ans[0]}`
 	}
